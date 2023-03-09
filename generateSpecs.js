@@ -21,13 +21,12 @@ for (let i = 0; i < 5000; i++) {
 }
 
 const vitestSpec = `
-import { assert, expect, test } from 'vitest'
+import { expect, test } from 'vitest'
 import sum from "../sum";
 
 test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1+2).eq(3)
-})
-})
+  expect(sum(1, 2)).toBe(3);
+});
 `;
 template = Handlebars.compile(vitestSpec);
 

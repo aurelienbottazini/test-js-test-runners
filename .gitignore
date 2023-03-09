@@ -1,5 +1,5 @@
-vitest/test
+# vitest/test
 vitest/node_modules
-jest/test
+# jest/test
 jest/node_modules
 node_modules
