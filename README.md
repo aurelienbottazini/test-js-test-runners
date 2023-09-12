@@ -36,3 +36,10 @@ cd jest
 npm i
 bun test 
 ```
+
+# Results
+
+- jest: 80 seconds
+- node: 216 seconds
+- vitest: 250 seconds
+- bun: 2 seconds
