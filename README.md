@@ -43,6 +43,7 @@ bun test
 
 Done with hyperfine, except vitest (hangs with hyperfine).
 
+```
 Benchmark 1: cd jest && bun test
 Time (mean ± σ):      2.387 s ±  0.453 s    [User: 1.814 s, System: 1.712 s]
 Range (min … max):    1.984 s …  3.322 s    10 runs
@@ -54,8 +55,14 @@ Range (min … max):   200.843 s … 201.132 s    10 runs
 Benchmark 3: cd jest && npm exec jest
 Time (mean ± σ):     81.898 s ±  2.660 s    [User: 473.612 s, System: 41.830 s]
 Range (min … max):   76.498 s … 84.671 s    10 runs
+```
 
 `cd vitest && npm exec vitest`
  
 vitest:
-time: 250 s
+time: 336 s
+,
+bun:
+- 34 times faster than jest
+- 83 times faster than node
+- 140 times faster than vitest
