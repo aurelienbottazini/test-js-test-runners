@@ -6,6 +6,13 @@ Test performance between test runners.
 
 # Usage
 
+## node
+
+```shell
+cd node
+node --test
+```
+
 ## Jest
 
 ```shell
@@ -20,4 +27,12 @@ npm exec jest
 cd vitest
 npm i
 npm exec vitest
+```
+
+### bun
+
+```shell
+cd jest
+npm i
+bun test 
 ```
