@@ -1,5 +1,5 @@
-const sum = require('../sum');
+const sum360 = require('../sum360.js');
 
-test('adds 2 + 80 to equal 82', () => {
-  expect(sum(2, 80)).toBe(82);
+test('adds 39 + 81 to equal 120 + 0.7155259863828551', () => {
+  expect(sum360(39, 81)).toBe(120 + 0.7155259863828551);
 });

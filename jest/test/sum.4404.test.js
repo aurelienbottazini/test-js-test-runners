@@ -1,5 +1,5 @@
-const sum = require('../sum');
+const sum4404 = require('../sum4404.js');
 
-test('adds 90 + 66 to equal 156', () => {
-  expect(sum(90, 66)).toBe(156);
+test('adds 24 + 20 to equal 44 + 0.11269308227712516', () => {
+  expect(sum4404(24, 20)).toBe(44 + 0.11269308227712516);
 });
