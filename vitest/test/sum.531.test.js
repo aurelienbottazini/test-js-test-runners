@@ -2,6 +2,6 @@
 import { expect, test } from 'vitest'
 import sum from "../sum";
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('adds 61 + 97 to equal 158', () => {
+  expect(sum(61, 97)).toBe(158);
 });

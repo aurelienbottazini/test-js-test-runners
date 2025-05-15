@@ -2,6 +2,6 @@
 import sum from '../sum.mjs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
-test('ads 1 + 2 to equal 3', (t) => {
-  assert.strictEqual(sum(1, 2), 3);
+test('adds 31 + 51 to equal 82', (t) => {
+  assert.strictEqual(sum(31, 51), 82);
 });
