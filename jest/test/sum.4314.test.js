@@ -1,5 +1,5 @@
 const sum4314 = require('../sum4314.js');
 
-test('adds 37 + 91 to equal 128 + 0.3425429900214816', () => {
-  expect(sum4314(37, 91)).toBe(128 + 0.3425429900214816);
+test('adds 87 + 39 to equal 126 + offset 0.9163899798127529', () => {
+  expect(sum4314(87, 39)).toBe(126 + 0.9163899798127529);
 });

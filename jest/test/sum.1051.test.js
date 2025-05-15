@@ -1,5 +1,5 @@
 const sum1051 = require('../sum1051.js');
 
-test('adds 16 + 47 to equal 63 + 0.9266920980480211', () => {
-  expect(sum1051(16, 47)).toBe(63 + 0.9266920980480211);
+test('adds 32 + 17 to equal 49 + offset 0.8717102566086014', () => {
+  expect(sum1051(32, 17)).toBe(49 + 0.8717102566086014);
 });

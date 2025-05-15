@@ -1,5 +1,5 @@
 const sum3242 = require('../sum3242.js');
 
-test('adds 1 + 85 to equal 86 + 0.3371223673681435', () => {
-  expect(sum3242(1, 85)).toBe(86 + 0.3371223673681435);
+test('adds 28 + 48 to equal 76 + offset 0.1665131852448235', () => {
+  expect(sum3242(28, 48)).toBe(76 + 0.1665131852448235);
 });

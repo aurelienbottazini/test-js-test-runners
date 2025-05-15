@@ -1,5 +1,5 @@
 const sum4576 = require('../sum4576.js');
 
-test('adds 54 + 61 to equal 115 + 0.7256970021158133', () => {
-  expect(sum4576(54, 61)).toBe(115 + 0.7256970021158133);
+test('adds 86 + 68 to equal 154 + offset 0.29232683496658385', () => {
+  expect(sum4576(86, 68)).toBe(154 + 0.29232683496658385);
 });

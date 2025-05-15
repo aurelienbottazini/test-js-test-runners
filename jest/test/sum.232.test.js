@@ -1,5 +1,5 @@
 const sum232 = require('../sum232.js');
 
-test('adds 54 + 37 to equal 91 + 0.16047105290892993', () => {
-  expect(sum232(54, 37)).toBe(91 + 0.16047105290892993);
+test('adds 26 + 17 to equal 43 + offset 0.8290899670838523', () => {
+  expect(sum232(26, 17)).toBe(43 + 0.8290899670838523);
 });

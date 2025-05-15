@@ -1,5 +1,5 @@
 const sum2008 = require('../sum2008.js');
 
-test('adds 61 + 34 to equal 95 + 0.78439987275273', () => {
-  expect(sum2008(61, 34)).toBe(95 + 0.78439987275273);
+test('adds 14 + 19 to equal 33 + offset 0.6687959125689664', () => {
+  expect(sum2008(14, 19)).toBe(33 + 0.6687959125689664);
 });

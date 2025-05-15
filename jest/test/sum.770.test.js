@@ -1,5 +1,5 @@
 const sum770 = require('../sum770.js');
 
-test('adds 65 + 23 to equal 88 + 0.9584286666402234', () => {
-  expect(sum770(65, 23)).toBe(88 + 0.9584286666402234);
+test('adds 72 + 38 to equal 110 + offset 0.7566793080433359', () => {
+  expect(sum770(72, 38)).toBe(110 + 0.7566793080433359);
 });

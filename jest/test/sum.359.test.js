@@ -1,5 +1,5 @@
 const sum359 = require('../sum359.js');
 
-test('adds 63 + 3 to equal 66 + 0.09786637966810008', () => {
-  expect(sum359(63, 3)).toBe(66 + 0.09786637966810008);
+test('adds 79 + 68 to equal 147 + offset 0.022829710983139462', () => {
+  expect(sum359(79, 68)).toBe(147 + 0.022829710983139462);
 });

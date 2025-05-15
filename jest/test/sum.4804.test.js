@@ -1,5 +1,5 @@
 const sum4804 = require('../sum4804.js');
 
-test('adds 0 + 91 to equal 91 + 0.3643604166749268', () => {
-  expect(sum4804(0, 91)).toBe(91 + 0.3643604166749268);
+test('adds 62 + 39 to equal 101 + offset 0.29717463636475483', () => {
+  expect(sum4804(62, 39)).toBe(101 + 0.29717463636475483);
 });

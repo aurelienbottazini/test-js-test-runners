@@ -1,5 +1,5 @@
 const sum2002 = require('../sum2002.js');
 
-test('adds 24 + 10 to equal 34 + 0.9237822038566591', () => {
-  expect(sum2002(24, 10)).toBe(34 + 0.9237822038566591);
+test('adds 22 + 76 to equal 98 + offset 0.2875110747793257', () => {
+  expect(sum2002(22, 76)).toBe(98 + 0.2875110747793257);
 });

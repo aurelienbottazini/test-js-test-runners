@@ -1,5 +1,5 @@
 const sum755 = require('../sum755.js');
 
-test('adds 13 + 17 to equal 30 + 0.8115795555717328', () => {
-  expect(sum755(13, 17)).toBe(30 + 0.8115795555717328);
+test('adds 49 + 29 to equal 78 + offset 0.4888029464805127', () => {
+  expect(sum755(49, 29)).toBe(78 + 0.4888029464805127);
 });

@@ -1,5 +1,5 @@
 const sum3241 = require('../sum3241.js');
 
-test('adds 52 + 39 to equal 91 + 0.9320365250378734', () => {
-  expect(sum3241(52, 39)).toBe(91 + 0.9320365250378734);
+test('adds 94 + 34 to equal 128 + offset 0.3701342297248169', () => {
+  expect(sum3241(94, 34)).toBe(128 + 0.3701342297248169);
 });

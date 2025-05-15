@@ -1,5 +1,5 @@
 const sum3365 = require('../sum3365.js');
 
-test('adds 80 + 77 to equal 157 + 0.6526051370173231', () => {
-  expect(sum3365(80, 77)).toBe(157 + 0.6526051370173231);
+test('adds 77 + 46 to equal 123 + offset 0.06578929736915351', () => {
+  expect(sum3365(77, 46)).toBe(123 + 0.06578929736915351);
 });

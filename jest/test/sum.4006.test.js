@@ -1,5 +1,5 @@
 const sum4006 = require('../sum4006.js');
 
-test('adds 11 + 81 to equal 92 + 0.8481472831519068', () => {
-  expect(sum4006(11, 81)).toBe(92 + 0.8481472831519068);
+test('adds 95 + 69 to equal 164 + offset 0.7077461419335161', () => {
+  expect(sum4006(95, 69)).toBe(164 + 0.7077461419335161);
 });

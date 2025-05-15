@@ -1,5 +1,5 @@
 const sum4033 = require('../sum4033.js');
 
-test('adds 9 + 11 to equal 20 + 0.6069128062029349', () => {
-  expect(sum4033(9, 11)).toBe(20 + 0.6069128062029349);
+test('adds 43 + 6 to equal 49 + offset 0.8146946054548919', () => {
+  expect(sum4033(43, 6)).toBe(49 + 0.8146946054548919);
 });

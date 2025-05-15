@@ -1,5 +1,5 @@
 const sum998 = require('../sum998.js');
 
-test('adds 0 + 54 to equal 54 + 0.2881461098686431', () => {
-  expect(sum998(0, 54)).toBe(54 + 0.2881461098686431);
+test('adds 39 + 44 to equal 83 + offset 0.27106169787770895', () => {
+  expect(sum998(39, 44)).toBe(83 + 0.27106169787770895);
 });

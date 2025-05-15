@@ -1,5 +1,5 @@
 const sum265 = require('../sum265.js');
 
-test('adds 19 + 23 to equal 42 + 0.9463392489288542', () => {
-  expect(sum265(19, 23)).toBe(42 + 0.9463392489288542);
+test('adds 72 + 30 to equal 102 + offset 0.37435813793414485', () => {
+  expect(sum265(72, 30)).toBe(102 + 0.37435813793414485);
 });

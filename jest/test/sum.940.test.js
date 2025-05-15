@@ -1,5 +1,5 @@
 const sum940 = require('../sum940.js');
 
-test('adds 2 + 7 to equal 9 + 0.25662902961341727', () => {
-  expect(sum940(2, 7)).toBe(9 + 0.25662902961341727);
+test('adds 7 + 76 to equal 83 + offset 0.6739684921730138', () => {
+  expect(sum940(7, 76)).toBe(83 + 0.6739684921730138);
 });

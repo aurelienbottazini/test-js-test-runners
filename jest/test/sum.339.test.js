@@ -1,5 +1,5 @@
 const sum339 = require('../sum339.js');
 
-test('adds 37 + 96 to equal 133 + 0.6863603623150647', () => {
-  expect(sum339(37, 96)).toBe(133 + 0.6863603623150647);
+test('adds 46 + 34 to equal 80 + offset 0.09714534428448285', () => {
+  expect(sum339(46, 34)).toBe(80 + 0.09714534428448285);
 });

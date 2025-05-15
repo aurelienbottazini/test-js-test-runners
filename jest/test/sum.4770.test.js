@@ -1,5 +1,5 @@
 const sum4770 = require('../sum4770.js');
 
-test('adds 11 + 21 to equal 32 + 0.6028599432577106', () => {
-  expect(sum4770(11, 21)).toBe(32 + 0.6028599432577106);
+test('adds 37 + 2 to equal 39 + offset 0.5349288962204967', () => {
+  expect(sum4770(37, 2)).toBe(39 + 0.5349288962204967);
 });

@@ -1,5 +1,5 @@
 const sum865 = require('../sum865.js');
 
-test('adds 39 + 15 to equal 54 + 0.4324352907423805', () => {
-  expect(sum865(39, 15)).toBe(54 + 0.4324352907423805);
+test('adds 53 + 17 to equal 70 + offset 0.8695828297656217', () => {
+  expect(sum865(53, 17)).toBe(70 + 0.8695828297656217);
 });

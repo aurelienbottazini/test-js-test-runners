@@ -1,5 +1,5 @@
 const sum392 = require('../sum392.js');
 
-test('adds 37 + 97 to equal 134 + 0.778621241763469', () => {
-  expect(sum392(37, 97)).toBe(134 + 0.778621241763469);
+test('adds 35 + 72 to equal 107 + offset 0.5299224127185668', () => {
+  expect(sum392(35, 72)).toBe(107 + 0.5299224127185668);
 });

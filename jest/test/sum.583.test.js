@@ -1,5 +1,5 @@
 const sum583 = require('../sum583.js');
 
-test('adds 6 + 12 to equal 18 + 0.8951041596341298', () => {
-  expect(sum583(6, 12)).toBe(18 + 0.8951041596341298);
+test('adds 99 + 82 to equal 181 + offset 0.28611199791532915', () => {
+  expect(sum583(99, 82)).toBe(181 + 0.28611199791532915);
 });

@@ -1,5 +1,5 @@
 const sum4083 = require('../sum4083.js');
 
-test('adds 62 + 7 to equal 69 + 0.2385418078730953', () => {
-  expect(sum4083(62, 7)).toBe(69 + 0.2385418078730953);
+test('adds 17 + 45 to equal 62 + offset 0.9438527443254844', () => {
+  expect(sum4083(17, 45)).toBe(62 + 0.9438527443254844);
 });

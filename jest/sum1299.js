@@ -1,6 +1,6 @@
 
 function sum1299(a, b) {
-  return a + b + 0.6953705522990694;
+  return a + b + 0.2832312202538366;
 }
 
 module.exports = sum1299;

@@ -1,5 +1,5 @@
 const sum712 = require('../sum712.js');
 
-test('adds 68 + 12 to equal 80 + 0.1127595511509113', () => {
-  expect(sum712(68, 12)).toBe(80 + 0.1127595511509113);
+test('adds 87 + 95 to equal 182 + offset 0.6952666809573215', () => {
+  expect(sum712(87, 95)).toBe(182 + 0.6952666809573215);
 });

@@ -1,5 +1,5 @@
 const sum1279 = require('../sum1279.js');
 
-test('adds 15 + 19 to equal 34 + 0.04255021371640688', () => {
-  expect(sum1279(15, 19)).toBe(34 + 0.04255021371640688);
+test('adds 20 + 36 to equal 56 + offset 0.6949196897819626', () => {
+  expect(sum1279(20, 36)).toBe(56 + 0.6949196897819626);
 });

@@ -1,5 +1,5 @@
 const sum800 = require('../sum800.js');
 
-test('adds 6 + 55 to equal 61 + 0.7872106233371929', () => {
-  expect(sum800(6, 55)).toBe(61 + 0.7872106233371929);
+test('adds 48 + 53 to equal 101 + offset 0.6683240370816123', () => {
+  expect(sum800(48, 53)).toBe(101 + 0.6683240370816123);
 });

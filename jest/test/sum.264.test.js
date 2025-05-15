@@ -1,5 +1,5 @@
 const sum264 = require('../sum264.js');
 
-test('adds 15 + 79 to equal 94 + 0.9553588748699976', () => {
-  expect(sum264(15, 79)).toBe(94 + 0.9553588748699976);
+test('adds 95 + 54 to equal 149 + offset 0.8510844291731404', () => {
+  expect(sum264(95, 54)).toBe(149 + 0.8510844291731404);
 });

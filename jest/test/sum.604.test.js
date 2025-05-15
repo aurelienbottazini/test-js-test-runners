@@ -1,5 +1,5 @@
 const sum604 = require('../sum604.js');
 
-test('adds 37 + 50 to equal 87 + 0.00300644421061369', () => {
-  expect(sum604(37, 50)).toBe(87 + 0.00300644421061369);
+test('adds 98 + 42 to equal 140 + offset 0.5213774546814628', () => {
+  expect(sum604(98, 42)).toBe(140 + 0.5213774546814628);
 });

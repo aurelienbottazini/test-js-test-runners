@@ -1,5 +1,5 @@
 const sum4000 = require('../sum4000.js');
 
-test('adds 15 + 10 to equal 25 + 0.4816661221819023', () => {
-  expect(sum4000(15, 10)).toBe(25 + 0.4816661221819023);
+test('adds 56 + 97 to equal 153 + offset 0.4923740729310151', () => {
+  expect(sum4000(56, 97)).toBe(153 + 0.4923740729310151);
 });

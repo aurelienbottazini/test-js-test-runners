@@ -1,5 +1,5 @@
 const sum4017 = require('../sum4017.js');
 
-test('adds 24 + 43 to equal 67 + 0.6315665183064338', () => {
-  expect(sum4017(24, 43)).toBe(67 + 0.6315665183064338);
+test('adds 30 + 74 to equal 104 + offset 0.054381607123190956', () => {
+  expect(sum4017(30, 74)).toBe(104 + 0.054381607123190956);
 });

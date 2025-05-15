@@ -1,5 +1,5 @@
 const sum4348 = require('../sum4348.js');
 
-test('adds 18 + 2 to equal 20 + 0.3824456076424685', () => {
-  expect(sum4348(18, 2)).toBe(20 + 0.3824456076424685);
+test('adds 64 + 55 to equal 119 + offset 0.4283193681169587', () => {
+  expect(sum4348(64, 55)).toBe(119 + 0.4283193681169587);
 });

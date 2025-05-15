@@ -1,5 +1,5 @@
 const sum200 = require('../sum200.js');
 
-test('adds 8 + 51 to equal 59 + 0.5797323014785086', () => {
-  expect(sum200(8, 51)).toBe(59 + 0.5797323014785086);
+test('adds 87 + 74 to equal 161 + offset 0.0030428627517979923', () => {
+  expect(sum200(87, 74)).toBe(161 + 0.0030428627517979923);
 });

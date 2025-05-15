@@ -1,5 +1,5 @@
 const sum347 = require('../sum347.js');
 
-test('adds 69 + 63 to equal 132 + 0.12664117822707766', () => {
-  expect(sum347(69, 63)).toBe(132 + 0.12664117822707766);
+test('adds 35 + 30 to equal 65 + offset 0.5052629219150194', () => {
+  expect(sum347(35, 30)).toBe(65 + 0.5052629219150194);
 });

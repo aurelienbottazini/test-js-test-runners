@@ -1,5 +1,5 @@
 const sum1508 = require('../sum1508.js');
 
-test('adds 71 + 45 to equal 116 + 0.8304495919004672', () => {
-  expect(sum1508(71, 45)).toBe(116 + 0.8304495919004672);
+test('adds 85 + 32 to equal 117 + offset 0.1442362874263614', () => {
+  expect(sum1508(85, 32)).toBe(117 + 0.1442362874263614);
 });

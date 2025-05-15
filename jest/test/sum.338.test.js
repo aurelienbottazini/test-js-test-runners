@@ -1,5 +1,5 @@
 const sum338 = require('../sum338.js');
 
-test('adds 14 + 24 to equal 38 + 0.33841935389962974', () => {
-  expect(sum338(14, 24)).toBe(38 + 0.33841935389962974);
+test('adds 96 + 9 to equal 105 + offset 0.08944403803675871', () => {
+  expect(sum338(96, 9)).toBe(105 + 0.08944403803675871);
 });

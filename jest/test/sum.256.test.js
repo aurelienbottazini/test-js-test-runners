@@ -1,5 +1,5 @@
 const sum256 = require('../sum256.js');
 
-test('adds 66 + 64 to equal 130 + 0.7895484891362629', () => {
-  expect(sum256(66, 64)).toBe(130 + 0.7895484891362629);
+test('adds 52 + 79 to equal 131 + offset 0.19031828548522134', () => {
+  expect(sum256(52, 79)).toBe(131 + 0.19031828548522134);
 });

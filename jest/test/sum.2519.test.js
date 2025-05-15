@@ -1,5 +1,5 @@
 const sum2519 = require('../sum2519.js');
 
-test('adds 0 + 16 to equal 16 + 0.048397201299734016', () => {
-  expect(sum2519(0, 16)).toBe(16 + 0.048397201299734016);
+test('adds 24 + 92 to equal 116 + offset 0.0756530493814822', () => {
+  expect(sum2519(24, 92)).toBe(116 + 0.0756530493814822);
 });

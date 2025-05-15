@@ -1,5 +1,5 @@
 const sum2672 = require('../sum2672.js');
 
-test('adds 35 + 5 to equal 40 + 0.9393772668436637', () => {
-  expect(sum2672(35, 5)).toBe(40 + 0.9393772668436637);
+test('adds 95 + 5 to equal 100 + offset 0.693640148512525', () => {
+  expect(sum2672(95, 5)).toBe(100 + 0.693640148512525);
 });

@@ -1,5 +1,5 @@
 const sum144 = require('../sum144.js');
 
-test('adds 93 + 10 to equal 103 + 0.30648179588740365', () => {
-  expect(sum144(93, 10)).toBe(103 + 0.30648179588740365);
+test('adds 17 + 16 to equal 33 + offset 0.6284234077339229', () => {
+  expect(sum144(17, 16)).toBe(33 + 0.6284234077339229);
 });

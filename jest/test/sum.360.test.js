@@ -1,5 +1,5 @@
 const sum360 = require('../sum360.js');
 
-test('adds 39 + 81 to equal 120 + 0.7155259863828551', () => {
-  expect(sum360(39, 81)).toBe(120 + 0.7155259863828551);
+test('adds 5 + 82 to equal 87 + offset 0.6479557142762817', () => {
+  expect(sum360(5, 82)).toBe(87 + 0.6479557142762817);
 });

@@ -1,5 +1,5 @@
 const sum2339 = require('../sum2339.js');
 
-test('adds 2 + 19 to equal 21 + 0.007647659073819368', () => {
-  expect(sum2339(2, 19)).toBe(21 + 0.007647659073819368);
+test('adds 94 + 7 to equal 101 + offset 0.421770517819244', () => {
+  expect(sum2339(94, 7)).toBe(101 + 0.421770517819244);
 });

@@ -1,6 +1,6 @@
 
 function sum32(a, b) {
-  return a + b + 0.49757750711901894;
+  return a + b + 0.5518369581132985;
 }
 
 module.exports = sum32;

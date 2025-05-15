@@ -1,5 +1,5 @@
 const sum510 = require('../sum510.js');
 
-test('adds 9 + 80 to equal 89 + 0.6255806044090061', () => {
-  expect(sum510(9, 80)).toBe(89 + 0.6255806044090061);
+test('adds 92 + 56 to equal 148 + offset 0.6332974281789435', () => {
+  expect(sum510(92, 56)).toBe(148 + 0.6332974281789435);
 });

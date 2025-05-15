@@ -1,5 +1,5 @@
 const sum357 = require('../sum357.js');
 
-test('adds 58 + 3 to equal 61 + 0.8336792333160453', () => {
-  expect(sum357(58, 3)).toBe(61 + 0.8336792333160453);
+test('adds 12 + 41 to equal 53 + offset 0.3179606383932688', () => {
+  expect(sum357(12, 41)).toBe(53 + 0.3179606383932688);
 });

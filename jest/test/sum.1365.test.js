@@ -1,5 +1,5 @@
 const sum1365 = require('../sum1365.js');
 
-test('adds 31 + 61 to equal 92 + 0.757086830939829', () => {
-  expect(sum1365(31, 61)).toBe(92 + 0.757086830939829);
+test('adds 37 + 27 to equal 64 + offset 0.5274577185567444', () => {
+  expect(sum1365(37, 27)).toBe(64 + 0.5274577185567444);
 });

@@ -1,5 +1,5 @@
 const sum711 = require('../sum711.js');
 
-test('adds 52 + 14 to equal 66 + 0.032970389157127356', () => {
-  expect(sum711(52, 14)).toBe(66 + 0.032970389157127356);
+test('adds 75 + 42 to equal 117 + offset 0.050890283242993495', () => {
+  expect(sum711(75, 42)).toBe(117 + 0.050890283242993495);
 });

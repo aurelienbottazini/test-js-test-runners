@@ -1,5 +1,5 @@
 const sum1023 = require('../sum1023.js');
 
-test('adds 43 + 14 to equal 57 + 0.5463676159735491', () => {
-  expect(sum1023(43, 14)).toBe(57 + 0.5463676159735491);
+test('adds 14 + 18 to equal 32 + offset 0.7753280168005063', () => {
+  expect(sum1023(14, 18)).toBe(32 + 0.7753280168005063);
 });

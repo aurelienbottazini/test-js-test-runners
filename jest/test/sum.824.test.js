@@ -1,5 +1,5 @@
 const sum824 = require('../sum824.js');
 
-test('adds 77 + 98 to equal 175 + 0.21652425047603585', () => {
-  expect(sum824(77, 98)).toBe(175 + 0.21652425047603585);
+test('adds 78 + 87 to equal 165 + offset 0.2260886651245373', () => {
+  expect(sum824(78, 87)).toBe(165 + 0.2260886651245373);
 });

@@ -1,5 +1,5 @@
 const sum744 = require('../sum744.js');
 
-test('adds 97 + 10 to equal 107 + 0.339346374315471', () => {
-  expect(sum744(97, 10)).toBe(107 + 0.339346374315471);
+test('adds 98 + 32 to equal 130 + offset 0.29032932453689475', () => {
+  expect(sum744(98, 32)).toBe(130 + 0.29032932453689475);
 });

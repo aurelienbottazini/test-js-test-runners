@@ -1,5 +1,5 @@
 const sum1089 = require('../sum1089.js');
 
-test('adds 58 + 54 to equal 112 + 0.8889133909702172', () => {
-  expect(sum1089(58, 54)).toBe(112 + 0.8889133909702172);
+test('adds 1 + 69 to equal 70 + offset 0.2869466511012837', () => {
+  expect(sum1089(1, 69)).toBe(70 + 0.2869466511012837);
 });

@@ -1,5 +1,5 @@
 const sum466 = require('../sum466.js');
 
-test('adds 14 + 92 to equal 106 + 0.7907174839318957', () => {
-  expect(sum466(14, 92)).toBe(106 + 0.7907174839318957);
+test('adds 4 + 54 to equal 58 + offset 0.6501890601347484', () => {
+  expect(sum466(4, 54)).toBe(58 + 0.6501890601347484);
 });

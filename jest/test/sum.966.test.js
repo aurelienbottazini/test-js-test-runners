@@ -1,5 +1,5 @@
 const sum966 = require('../sum966.js');
 
-test('adds 51 + 68 to equal 119 + 0.29407708654929743', () => {
-  expect(sum966(51, 68)).toBe(119 + 0.29407708654929743);
+test('adds 30 + 51 to equal 81 + offset 0.08049772335042371', () => {
+  expect(sum966(30, 51)).toBe(81 + 0.08049772335042371);
 });

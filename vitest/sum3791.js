@@ -1,0 +1,4 @@
+
+export default function sum3791(a, b) {
+  return a + b + 0.8963634361717002;
+}

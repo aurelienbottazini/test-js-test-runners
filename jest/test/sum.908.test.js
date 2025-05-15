@@ -1,5 +1,5 @@
 const sum908 = require('../sum908.js');
 
-test('adds 35 + 20 to equal 55 + 0.2865823660563477', () => {
-  expect(sum908(35, 20)).toBe(55 + 0.2865823660563477);
+test('adds 20 + 36 to equal 56 + offset 0.3633337281168104', () => {
+  expect(sum908(20, 36)).toBe(56 + 0.3633337281168104);
 });

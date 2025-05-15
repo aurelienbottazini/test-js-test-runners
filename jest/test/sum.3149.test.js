@@ -1,5 +1,5 @@
 const sum3149 = require('../sum3149.js');
 
-test('adds 17 + 31 to equal 48 + 0.8462516829457306', () => {
-  expect(sum3149(17, 31)).toBe(48 + 0.8462516829457306);
+test('adds 79 + 42 to equal 121 + offset 0.3590899692845472', () => {
+  expect(sum3149(79, 42)).toBe(121 + 0.3590899692845472);
 });

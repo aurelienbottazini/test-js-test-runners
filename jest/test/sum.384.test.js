@@ -1,5 +1,5 @@
 const sum384 = require('../sum384.js');
 
-test('adds 32 + 83 to equal 115 + 0.18085559151942365', () => {
-  expect(sum384(32, 83)).toBe(115 + 0.18085559151942365);
+test('adds 85 + 21 to equal 106 + offset 0.6348572141940015', () => {
+  expect(sum384(85, 21)).toBe(106 + 0.6348572141940015);
 });

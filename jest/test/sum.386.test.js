@@ -1,5 +1,5 @@
 const sum386 = require('../sum386.js');
 
-test('adds 33 + 43 to equal 76 + 0.05279495339638984', () => {
-  expect(sum386(33, 43)).toBe(76 + 0.05279495339638984);
+test('adds 22 + 19 to equal 41 + offset 0.2000576526157687', () => {
+  expect(sum386(22, 19)).toBe(41 + 0.2000576526157687);
 });

@@ -1,5 +1,5 @@
 const sum2623 = require('../sum2623.js');
 
-test('adds 14 + 18 to equal 32 + 0.22829320190709412', () => {
-  expect(sum2623(14, 18)).toBe(32 + 0.22829320190709412);
+test('adds 77 + 24 to equal 101 + offset 0.19593021749917916', () => {
+  expect(sum2623(77, 24)).toBe(101 + 0.19593021749917916);
 });

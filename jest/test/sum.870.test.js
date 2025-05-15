@@ -1,5 +1,5 @@
 const sum870 = require('../sum870.js');
 
-test('adds 2 + 0 to equal 2 + 0.2782651490178184', () => {
-  expect(sum870(2, 0)).toBe(2 + 0.2782651490178184);
+test('adds 4 + 17 to equal 21 + offset 0.7138064612064646', () => {
+  expect(sum870(4, 17)).toBe(21 + 0.7138064612064646);
 });

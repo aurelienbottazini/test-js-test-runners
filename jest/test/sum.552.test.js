@@ -1,5 +1,5 @@
 const sum552 = require('../sum552.js');
 
-test('adds 24 + 2 to equal 26 + 0.3147501251819351', () => {
-  expect(sum552(24, 2)).toBe(26 + 0.3147501251819351);
+test('adds 15 + 34 to equal 49 + offset 0.769054619246226', () => {
+  expect(sum552(15, 34)).toBe(49 + 0.769054619246226);
 });

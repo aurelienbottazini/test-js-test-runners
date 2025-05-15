@@ -1,5 +1,5 @@
 const sum239 = require('../sum239.js');
 
-test('adds 38 + 64 to equal 102 + 0.16300641732263277', () => {
-  expect(sum239(38, 64)).toBe(102 + 0.16300641732263277);
+test('adds 69 + 83 to equal 152 + offset 0.857652157313006', () => {
+  expect(sum239(69, 83)).toBe(152 + 0.857652157313006);
 });

@@ -1,5 +1,5 @@
 const sum771 = require('../sum771.js');
 
-test('adds 83 + 54 to equal 137 + 0.09709266151838014', () => {
-  expect(sum771(83, 54)).toBe(137 + 0.09709266151838014);
+test('adds 10 + 0 to equal 10 + offset 0.36397829961755357', () => {
+  expect(sum771(10, 0)).toBe(10 + 0.36397829961755357);
 });

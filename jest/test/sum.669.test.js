@@ -1,5 +1,5 @@
 const sum669 = require('../sum669.js');
 
-test('adds 24 + 41 to equal 65 + 0.1826694588626825', () => {
-  expect(sum669(24, 41)).toBe(65 + 0.1826694588626825);
+test('adds 17 + 20 to equal 37 + offset 0.30073908845018615', () => {
+  expect(sum669(17, 20)).toBe(37 + 0.30073908845018615);
 });

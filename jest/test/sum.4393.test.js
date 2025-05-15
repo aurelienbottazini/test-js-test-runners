@@ -1,5 +1,5 @@
 const sum4393 = require('../sum4393.js');
 
-test('adds 23 + 63 to equal 86 + 0.6114815489330488', () => {
-  expect(sum4393(23, 63)).toBe(86 + 0.6114815489330488);
+test('adds 94 + 36 to equal 130 + offset 0.9398822030138965', () => {
+  expect(sum4393(94, 36)).toBe(130 + 0.9398822030138965);
 });

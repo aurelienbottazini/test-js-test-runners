@@ -1,5 +1,5 @@
 const sum3004 = require('../sum3004.js');
 
-test('adds 2 + 40 to equal 42 + 0.8411372557846979', () => {
-  expect(sum3004(2, 40)).toBe(42 + 0.8411372557846979);
+test('adds 48 + 3 to equal 51 + offset 0.738235448048784', () => {
+  expect(sum3004(48, 3)).toBe(51 + 0.738235448048784);
 });

@@ -1,5 +1,5 @@
 const sum1209 = require('../sum1209.js');
 
-test('adds 2 + 14 to equal 16 + 0.8302822070096334', () => {
-  expect(sum1209(2, 14)).toBe(16 + 0.8302822070096334);
+test('adds 69 + 72 to equal 141 + offset 0.7419771808712955', () => {
+  expect(sum1209(69, 72)).toBe(141 + 0.7419771808712955);
 });

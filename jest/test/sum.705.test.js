@@ -1,5 +1,5 @@
 const sum705 = require('../sum705.js');
 
-test('adds 20 + 37 to equal 57 + 0.12411299871861359', () => {
-  expect(sum705(20, 37)).toBe(57 + 0.12411299871861359);
+test('adds 43 + 74 to equal 117 + offset 0.32236642988419617', () => {
+  expect(sum705(43, 74)).toBe(117 + 0.32236642988419617);
 });

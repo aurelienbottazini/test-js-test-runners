@@ -1,5 +1,5 @@
 const sum306 = require('../sum306.js');
 
-test('adds 48 + 77 to equal 125 + 0.8001107527893208', () => {
-  expect(sum306(48, 77)).toBe(125 + 0.8001107527893208);
+test('adds 59 + 19 to equal 78 + offset 0.9808130654987849', () => {
+  expect(sum306(59, 19)).toBe(78 + 0.9808130654987849);
 });

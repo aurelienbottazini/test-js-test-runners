@@ -1,5 +1,5 @@
 const sum270 = require('../sum270.js');
 
-test('adds 32 + 51 to equal 83 + 0.2370579148801112', () => {
-  expect(sum270(32, 51)).toBe(83 + 0.2370579148801112);
+test('adds 29 + 87 to equal 116 + offset 0.5579613609706698', () => {
+  expect(sum270(29, 87)).toBe(116 + 0.5579613609706698);
 });

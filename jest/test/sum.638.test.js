@@ -1,5 +1,5 @@
 const sum638 = require('../sum638.js');
 
-test('adds 20 + 11 to equal 31 + 0.38293603702717094', () => {
-  expect(sum638(20, 11)).toBe(31 + 0.38293603702717094);
+test('adds 10 + 1 to equal 11 + offset 0.319443379523881', () => {
+  expect(sum638(10, 1)).toBe(11 + 0.319443379523881);
 });

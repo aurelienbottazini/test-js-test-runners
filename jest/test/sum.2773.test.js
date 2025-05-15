@@ -1,5 +1,5 @@
 const sum2773 = require('../sum2773.js');
 
-test('adds 79 + 39 to equal 118 + 0.8269065330398611', () => {
-  expect(sum2773(79, 39)).toBe(118 + 0.8269065330398611);
+test('adds 84 + 21 to equal 105 + offset 0.309469581971179', () => {
+  expect(sum2773(84, 21)).toBe(105 + 0.309469581971179);
 });

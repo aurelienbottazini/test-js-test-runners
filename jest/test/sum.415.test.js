@@ -1,5 +1,5 @@
 const sum415 = require('../sum415.js');
 
-test('adds 8 + 87 to equal 95 + 0.996535543921628', () => {
-  expect(sum415(8, 87)).toBe(95 + 0.996535543921628);
+test('adds 20 + 26 to equal 46 + offset 0.00472396155141952', () => {
+  expect(sum415(20, 26)).toBe(46 + 0.00472396155141952);
 });

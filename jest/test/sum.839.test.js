@@ -1,5 +1,5 @@
 const sum839 = require('../sum839.js');
 
-test('adds 5 + 23 to equal 28 + 0.23715436996730443', () => {
-  expect(sum839(5, 23)).toBe(28 + 0.23715436996730443);
+test('adds 38 + 36 to equal 74 + offset 0.8829895101626501', () => {
+  expect(sum839(38, 36)).toBe(74 + 0.8829895101626501);
 });

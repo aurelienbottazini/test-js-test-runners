@@ -1,5 +1,5 @@
 const sum408 = require('../sum408.js');
 
-test('adds 19 + 63 to equal 82 + 0.9531865589375162', () => {
-  expect(sum408(19, 63)).toBe(82 + 0.9531865589375162);
+test('adds 24 + 23 to equal 47 + offset 0.38931159685489314', () => {
+  expect(sum408(24, 23)).toBe(47 + 0.38931159685489314);
 });

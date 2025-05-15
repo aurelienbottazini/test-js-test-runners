@@ -1,5 +1,5 @@
 const sum884 = require('../sum884.js');
 
-test('adds 73 + 40 to equal 113 + 0.9404047891076657', () => {
-  expect(sum884(73, 40)).toBe(113 + 0.9404047891076657);
+test('adds 21 + 8 to equal 29 + offset 0.17175090841720841', () => {
+  expect(sum884(21, 8)).toBe(29 + 0.17175090841720841);
 });

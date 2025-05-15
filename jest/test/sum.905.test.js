@@ -1,5 +1,5 @@
 const sum905 = require('../sum905.js');
 
-test('adds 15 + 52 to equal 67 + 0.296003092610741', () => {
-  expect(sum905(15, 52)).toBe(67 + 0.296003092610741);
+test('adds 6 + 42 to equal 48 + offset 0.7095144732765324', () => {
+  expect(sum905(6, 42)).toBe(48 + 0.7095144732765324);
 });

@@ -1,5 +1,5 @@
 const sum22 = require('../sum22.js');
 
-test('adds 81 + 21 to equal 102 + 0.8224027401391456', () => {
-  expect(sum22(81, 21)).toBe(102 + 0.8224027401391456);
+test('adds 95 + 4 to equal 99 + offset 0.17086098550934625', () => {
+  expect(sum22(95, 4)).toBe(99 + 0.17086098550934625);
 });

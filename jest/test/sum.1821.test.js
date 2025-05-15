@@ -1,5 +1,5 @@
 const sum1821 = require('../sum1821.js');
 
-test('adds 69 + 64 to equal 133 + 0.9917880193069738', () => {
-  expect(sum1821(69, 64)).toBe(133 + 0.9917880193069738);
+test('adds 51 + 90 to equal 141 + offset 0.17155066439791233', () => {
+  expect(sum1821(51, 90)).toBe(141 + 0.17155066439791233);
 });

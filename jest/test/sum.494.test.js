@@ -1,5 +1,5 @@
 const sum494 = require('../sum494.js');
 
-test('adds 54 + 58 to equal 112 + 0.7439287461932451', () => {
-  expect(sum494(54, 58)).toBe(112 + 0.7439287461932451);
+test('adds 24 + 12 to equal 36 + offset 0.0073485507004696915', () => {
+  expect(sum494(24, 12)).toBe(36 + 0.0073485507004696915);
 });

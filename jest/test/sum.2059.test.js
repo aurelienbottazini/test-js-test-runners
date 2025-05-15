@@ -1,5 +1,5 @@
 const sum2059 = require('../sum2059.js');
 
-test('adds 58 + 64 to equal 122 + 0.4447121931393492', () => {
-  expect(sum2059(58, 64)).toBe(122 + 0.4447121931393492);
+test('adds 60 + 24 to equal 84 + offset 0.03191550644424157', () => {
+  expect(sum2059(60, 24)).toBe(84 + 0.03191550644424157);
 });

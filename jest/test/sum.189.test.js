@@ -1,5 +1,5 @@
 const sum189 = require('../sum189.js');
 
-test('adds 44 + 44 to equal 88 + 0.5352942399597437', () => {
-  expect(sum189(44, 44)).toBe(88 + 0.5352942399597437);
+test('adds 90 + 44 to equal 134 + offset 0.11934441772537396', () => {
+  expect(sum189(90, 44)).toBe(134 + 0.11934441772537396);
 });

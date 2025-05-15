@@ -1,5 +1,5 @@
 const sum206 = require('../sum206.js');
 
-test('adds 4 + 10 to equal 14 + 0.13532712582541695', () => {
-  expect(sum206(4, 10)).toBe(14 + 0.13532712582541695);
+test('adds 65 + 75 to equal 140 + offset 0.6210166171800623', () => {
+  expect(sum206(65, 75)).toBe(140 + 0.6210166171800623);
 });

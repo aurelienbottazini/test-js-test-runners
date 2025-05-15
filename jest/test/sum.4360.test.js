@@ -1,5 +1,5 @@
 const sum4360 = require('../sum4360.js');
 
-test('adds 90 + 94 to equal 184 + 0.4187311523686652', () => {
-  expect(sum4360(90, 94)).toBe(184 + 0.4187311523686652);
+test('adds 96 + 99 to equal 195 + offset 0.05919278030808006', () => {
+  expect(sum4360(96, 99)).toBe(195 + 0.05919278030808006);
 });

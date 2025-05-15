@@ -1,5 +1,5 @@
 const sum321 = require('../sum321.js');
 
-test('adds 13 + 36 to equal 49 + 0.7625624817848213', () => {
-  expect(sum321(13, 36)).toBe(49 + 0.7625624817848213);
+test('adds 48 + 36 to equal 84 + offset 0.9307719239660501', () => {
+  expect(sum321(48, 36)).toBe(84 + 0.9307719239660501);
 });

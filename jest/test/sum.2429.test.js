@@ -1,5 +1,5 @@
 const sum2429 = require('../sum2429.js');
 
-test('adds 39 + 90 to equal 129 + 0.6032384729593301', () => {
-  expect(sum2429(39, 90)).toBe(129 + 0.6032384729593301);
+test('adds 10 + 97 to equal 107 + offset 0.20909510047188407', () => {
+  expect(sum2429(10, 97)).toBe(107 + 0.20909510047188407);
 });

@@ -1,5 +1,5 @@
 const sum803 = require('../sum803.js');
 
-test('adds 97 + 15 to equal 112 + 0.4457410143559404', () => {
-  expect(sum803(97, 15)).toBe(112 + 0.4457410143559404);
+test('adds 26 + 12 to equal 38 + offset 0.7152026789350924', () => {
+  expect(sum803(26, 12)).toBe(38 + 0.7152026789350924);
 });

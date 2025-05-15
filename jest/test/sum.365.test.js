@@ -1,5 +1,5 @@
 const sum365 = require('../sum365.js');
 
-test('adds 50 + 48 to equal 98 + 0.9820576912884031', () => {
-  expect(sum365(50, 48)).toBe(98 + 0.9820576912884031);
+test('adds 82 + 90 to equal 172 + offset 0.3122106174639492', () => {
+  expect(sum365(82, 90)).toBe(172 + 0.3122106174639492);
 });

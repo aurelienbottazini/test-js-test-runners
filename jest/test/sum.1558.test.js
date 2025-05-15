@@ -1,5 +1,5 @@
 const sum1558 = require('../sum1558.js');
 
-test('adds 0 + 40 to equal 40 + 0.36585262189401235', () => {
-  expect(sum1558(0, 40)).toBe(40 + 0.36585262189401235);
+test('adds 0 + 48 to equal 48 + offset 0.63536559010853', () => {
+  expect(sum1558(0, 48)).toBe(48 + 0.63536559010853);
 });

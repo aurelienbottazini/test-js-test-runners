@@ -1,5 +1,5 @@
 const sum3100 = require('../sum3100.js');
 
-test('adds 17 + 90 to equal 107 + 0.012530659154573631', () => {
-  expect(sum3100(17, 90)).toBe(107 + 0.012530659154573631);
+test('adds 29 + 61 to equal 90 + offset 0.9877590138964399', () => {
+  expect(sum3100(29, 61)).toBe(90 + 0.9877590138964399);
 });

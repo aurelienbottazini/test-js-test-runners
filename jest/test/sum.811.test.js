@@ -1,5 +1,5 @@
 const sum811 = require('../sum811.js');
 
-test('adds 57 + 45 to equal 102 + 0.6774199354938915', () => {
-  expect(sum811(57, 45)).toBe(102 + 0.6774199354938915);
+test('adds 1 + 84 to equal 85 + offset 0.4754534539015449', () => {
+  expect(sum811(1, 84)).toBe(85 + 0.4754534539015449);
 });

@@ -1,5 +1,5 @@
 const sum3013 = require('../sum3013.js');
 
-test('adds 88 + 78 to equal 166 + 0.7416203720316186', () => {
-  expect(sum3013(88, 78)).toBe(166 + 0.7416203720316186);
+test('adds 10 + 31 to equal 41 + offset 0.28381037780635965', () => {
+  expect(sum3013(10, 31)).toBe(41 + 0.28381037780635965);
 });

@@ -1,5 +1,5 @@
 const sum4461 = require('../sum4461.js');
 
-test('adds 45 + 55 to equal 100 + 0.46264547668945843', () => {
-  expect(sum4461(45, 55)).toBe(100 + 0.46264547668945843);
+test('adds 1 + 3 to equal 4 + offset 0.22118904755260405', () => {
+  expect(sum4461(1, 3)).toBe(4 + 0.22118904755260405);
 });

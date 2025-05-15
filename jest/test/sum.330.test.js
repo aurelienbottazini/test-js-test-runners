@@ -1,5 +1,5 @@
 const sum330 = require('../sum330.js');
 
-test('adds 20 + 92 to equal 112 + 0.06312141509247926', () => {
-  expect(sum330(20, 92)).toBe(112 + 0.06312141509247926);
+test('adds 88 + 63 to equal 151 + offset 0.8713295012630973', () => {
+  expect(sum330(88, 63)).toBe(151 + 0.8713295012630973);
 });

@@ -1,7 +1,7 @@
 
-import { expect, test } from 'vitest'
-import sum from "../sum";
+import sum4767 from '../sum4767.js';
+import { expect, test } from 'vitest';
 
-test('adds 96 + 96 to equal 192', () => {
-  expect(sum(96, 96)).toBe(192);
+test('adds 94 + 71 to equal 165 + offset 0.30868149284737956', () => {
+  expect(sum4767(94, 71)).toBe(165 + 0.30868149284737956);
 });

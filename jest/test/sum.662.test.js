@@ -1,5 +1,5 @@
 const sum662 = require('../sum662.js');
 
-test('adds 75 + 77 to equal 152 + 0.581286259867297', () => {
-  expect(sum662(75, 77)).toBe(152 + 0.581286259867297);
+test('adds 73 + 50 to equal 123 + offset 0.6408367894389916', () => {
+  expect(sum662(73, 50)).toBe(123 + 0.6408367894389916);
 });

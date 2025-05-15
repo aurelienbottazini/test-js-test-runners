@@ -1,5 +1,5 @@
 const sum545 = require('../sum545.js');
 
-test('adds 18 + 18 to equal 36 + 0.3143387207423751', () => {
-  expect(sum545(18, 18)).toBe(36 + 0.3143387207423751);
+test('adds 8 + 22 to equal 30 + offset 0.39648142965302846', () => {
+  expect(sum545(8, 22)).toBe(30 + 0.39648142965302846);
 });

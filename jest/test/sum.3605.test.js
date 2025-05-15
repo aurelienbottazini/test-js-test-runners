@@ -1,5 +1,5 @@
 const sum3605 = require('../sum3605.js');
 
-test('adds 61 + 27 to equal 88 + 0.6612073625450401', () => {
-  expect(sum3605(61, 27)).toBe(88 + 0.6612073625450401);
+test('adds 18 + 20 to equal 38 + offset 0.07828714172313078', () => {
+  expect(sum3605(18, 20)).toBe(38 + 0.07828714172313078);
 });

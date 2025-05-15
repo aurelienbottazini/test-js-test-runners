@@ -1,5 +1,5 @@
 const sum738 = require('../sum738.js');
 
-test('adds 32 + 81 to equal 113 + 0.007994592416924129', () => {
-  expect(sum738(32, 81)).toBe(113 + 0.007994592416924129);
+test('adds 6 + 86 to equal 92 + offset 0.7845912011532193', () => {
+  expect(sum738(6, 86)).toBe(92 + 0.7845912011532193);
 });

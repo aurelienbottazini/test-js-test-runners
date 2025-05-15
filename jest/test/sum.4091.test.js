@@ -1,5 +1,5 @@
 const sum4091 = require('../sum4091.js');
 
-test('adds 8 + 44 to equal 52 + 0.3844590216292679', () => {
-  expect(sum4091(8, 44)).toBe(52 + 0.3844590216292679);
+test('adds 0 + 16 to equal 16 + offset 0.6918887615669839', () => {
+  expect(sum4091(0, 16)).toBe(16 + 0.6918887615669839);
 });

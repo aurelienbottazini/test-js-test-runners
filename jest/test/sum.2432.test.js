@@ -1,5 +1,5 @@
 const sum2432 = require('../sum2432.js');
 
-test('adds 58 + 9 to equal 67 + 0.004622757661879473', () => {
-  expect(sum2432(58, 9)).toBe(67 + 0.004622757661879473);
+test('adds 60 + 91 to equal 151 + offset 0.47884881973263405', () => {
+  expect(sum2432(60, 91)).toBe(151 + 0.47884881973263405);
 });

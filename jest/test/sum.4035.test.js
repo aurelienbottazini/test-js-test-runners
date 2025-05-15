@@ -1,5 +1,5 @@
 const sum4035 = require('../sum4035.js');
 
-test('adds 10 + 18 to equal 28 + 0.5213768104751277', () => {
-  expect(sum4035(10, 18)).toBe(28 + 0.5213768104751277);
+test('adds 55 + 20 to equal 75 + offset 0.2524183967987593', () => {
+  expect(sum4035(55, 20)).toBe(75 + 0.2524183967987593);
 });

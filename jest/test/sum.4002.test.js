@@ -1,5 +1,5 @@
 const sum4002 = require('../sum4002.js');
 
-test('adds 95 + 63 to equal 158 + 0.3987610564737917', () => {
-  expect(sum4002(95, 63)).toBe(158 + 0.3987610564737917);
+test('adds 56 + 81 to equal 137 + offset 0.7231316448758123', () => {
+  expect(sum4002(56, 81)).toBe(137 + 0.7231316448758123);
 });

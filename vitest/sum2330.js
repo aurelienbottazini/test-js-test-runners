@@ -1,0 +1,4 @@
+
+export default function sum2330(a, b) {
+  return a + b + 0.8348763117119906;
+}

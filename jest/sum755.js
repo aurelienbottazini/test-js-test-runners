@@ -1,6 +1,6 @@
 
 function sum755(a, b) {
-  return a + b + 0.8115795555717328;
+  return a + b + 0.4888029464805127;
 }
 
 module.exports = sum755;

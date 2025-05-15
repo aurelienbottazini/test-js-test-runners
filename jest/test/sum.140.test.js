@@ -1,5 +1,5 @@
 const sum140 = require('../sum140.js');
 
-test('adds 42 + 20 to equal 62 + 0.16378050666125898', () => {
-  expect(sum140(42, 20)).toBe(62 + 0.16378050666125898);
+test('adds 58 + 90 to equal 148 + offset 0.2601840731094872', () => {
+  expect(sum140(58, 90)).toBe(148 + 0.2601840731094872);
 });

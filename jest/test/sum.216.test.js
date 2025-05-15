@@ -1,5 +1,5 @@
 const sum216 = require('../sum216.js');
 
-test('adds 43 + 70 to equal 113 + 0.7036506458639433', () => {
-  expect(sum216(43, 70)).toBe(113 + 0.7036506458639433);
+test('adds 6 + 82 to equal 88 + offset 0.6180500227782701', () => {
+  expect(sum216(6, 82)).toBe(88 + 0.6180500227782701);
 });

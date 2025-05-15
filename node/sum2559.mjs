@@ -1,0 +1,4 @@
+
+export default function sum2559(a, b) {
+  return a + b + 0.8399460527824103;
+}

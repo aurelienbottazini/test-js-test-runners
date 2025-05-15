@@ -1,5 +1,5 @@
 const sum2868 = require('../sum2868.js');
 
-test('adds 88 + 67 to equal 155 + 0.8579161867149737', () => {
-  expect(sum2868(88, 67)).toBe(155 + 0.8579161867149737);
+test('adds 26 + 90 to equal 116 + offset 0.327788469251309', () => {
+  expect(sum2868(26, 90)).toBe(116 + 0.327788469251309);
 });

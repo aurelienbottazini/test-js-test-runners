@@ -1,7 +1,8 @@
 
-import sum from '../sum.mjs';
+import sum1208 from '../sum1208.mjs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
-test('adds 80 + 33 to equal 113', (t) => {
-  assert.strictEqual(sum(80, 33), 113);
+
+test('adds 27 + 3 to equal 30 + offset 0.8930431201665157', (t) => {
+  assert.strictEqual(sum1208(27, 3), 30 + 0.8930431201665157);
 });

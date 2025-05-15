@@ -1,5 +1,5 @@
 const sum768 = require('../sum768.js');
 
-test('adds 54 + 30 to equal 84 + 0.8358081663490521', () => {
-  expect(sum768(54, 30)).toBe(84 + 0.8358081663490521);
+test('adds 8 + 16 to equal 24 + offset 0.5048091101622426', () => {
+  expect(sum768(8, 16)).toBe(24 + 0.5048091101622426);
 });

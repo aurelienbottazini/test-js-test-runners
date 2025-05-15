@@ -1,5 +1,5 @@
 const sum4011 = require('../sum4011.js');
 
-test('adds 49 + 73 to equal 122 + 0.5035997947848264', () => {
-  expect(sum4011(49, 73)).toBe(122 + 0.5035997947848264);
+test('adds 62 + 84 to equal 146 + offset 0.6160868307101699', () => {
+  expect(sum4011(62, 84)).toBe(146 + 0.6160868307101699);
 });

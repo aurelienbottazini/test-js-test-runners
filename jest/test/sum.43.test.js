@@ -1,5 +1,5 @@
 const sum43 = require('../sum43.js');
 
-test('adds 66 + 83 to equal 149 + 0.7023256778258165', () => {
-  expect(sum43(66, 83)).toBe(149 + 0.7023256778258165);
+test('adds 6 + 8 to equal 14 + offset 0.4850962641985973', () => {
+  expect(sum43(6, 8)).toBe(14 + 0.4850962641985973);
 });

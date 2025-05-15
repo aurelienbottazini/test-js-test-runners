@@ -1,5 +1,5 @@
 const sum4067 = require('../sum4067.js');
 
-test('adds 52 + 7 to equal 59 + 0.8928815652513451', () => {
-  expect(sum4067(52, 7)).toBe(59 + 0.8928815652513451);
+test('adds 47 + 82 to equal 129 + offset 0.01889737523676438', () => {
+  expect(sum4067(47, 82)).toBe(129 + 0.01889737523676438);
 });

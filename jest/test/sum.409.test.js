@@ -1,5 +1,5 @@
 const sum409 = require('../sum409.js');
 
-test('adds 52 + 32 to equal 84 + 0.7906688600467435', () => {
-  expect(sum409(52, 32)).toBe(84 + 0.7906688600467435);
+test('adds 24 + 81 to equal 105 + offset 0.9574716205879739', () => {
+  expect(sum409(24, 81)).toBe(105 + 0.9574716205879739);
 });

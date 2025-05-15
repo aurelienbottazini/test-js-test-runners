@@ -1,5 +1,5 @@
 const sum3032 = require('../sum3032.js');
 
-test('adds 22 + 51 to equal 73 + 0.940626657688241', () => {
-  expect(sum3032(22, 51)).toBe(73 + 0.940626657688241);
+test('adds 72 + 99 to equal 171 + offset 0.9675957798108231', () => {
+  expect(sum3032(72, 99)).toBe(171 + 0.9675957798108231);
 });

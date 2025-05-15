@@ -1,5 +1,5 @@
 const sum1939 = require('../sum1939.js');
 
-test('adds 3 + 89 to equal 92 + 0.9219931366432784', () => {
-  expect(sum1939(3, 89)).toBe(92 + 0.9219931366432784);
+test('adds 11 + 72 to equal 83 + offset 0.45956156467145015', () => {
+  expect(sum1939(11, 72)).toBe(83 + 0.45956156467145015);
 });

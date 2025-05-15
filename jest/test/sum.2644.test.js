@@ -1,5 +1,5 @@
 const sum2644 = require('../sum2644.js');
 
-test('adds 68 + 19 to equal 87 + 0.7735174021321155', () => {
-  expect(sum2644(68, 19)).toBe(87 + 0.7735174021321155);
+test('adds 65 + 9 to equal 74 + offset 0.07050354914889301', () => {
+  expect(sum2644(65, 9)).toBe(74 + 0.07050354914889301);
 });

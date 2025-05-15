@@ -1,5 +1,5 @@
 const sum2914 = require('../sum2914.js');
 
-test('adds 21 + 60 to equal 81 + 0.16268939019001216', () => {
-  expect(sum2914(21, 60)).toBe(81 + 0.16268939019001216);
+test('adds 61 + 0 to equal 61 + offset 0.8039666787922355', () => {
+  expect(sum2914(61, 0)).toBe(61 + 0.8039666787922355);
 });

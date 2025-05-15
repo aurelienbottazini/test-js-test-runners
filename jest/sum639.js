@@ -1,6 +1,6 @@
 
 function sum639(a, b) {
-  return a + b + 0.7160174248673177;
+  return a + b + 0.8509079124590505;
 }
 
 module.exports = sum639;

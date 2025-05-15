@@ -1,5 +1,5 @@
 const sum994 = require('../sum994.js');
 
-test('adds 3 + 46 to equal 49 + 0.55468559084304', () => {
-  expect(sum994(3, 46)).toBe(49 + 0.55468559084304);
+test('adds 13 + 20 to equal 33 + offset 0.06685602914170818', () => {
+  expect(sum994(13, 20)).toBe(33 + 0.06685602914170818);
 });

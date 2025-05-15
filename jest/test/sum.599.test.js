@@ -1,5 +1,5 @@
 const sum599 = require('../sum599.js');
 
-test('adds 87 + 50 to equal 137 + 0.7762960976718428', () => {
-  expect(sum599(87, 50)).toBe(137 + 0.7762960976718428);
+test('adds 69 + 98 to equal 167 + offset 0.936881261430997', () => {
+  expect(sum599(69, 98)).toBe(167 + 0.936881261430997);
 });

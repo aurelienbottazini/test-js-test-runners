@@ -1,6 +1,6 @@
 
 function sum523(a, b) {
-  return a + b + 0.5190441185329188;
+  return a + b + 0.9828059057188905;
 }
 
 module.exports = sum523;

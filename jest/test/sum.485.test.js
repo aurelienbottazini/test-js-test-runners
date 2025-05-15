@@ -1,5 +1,5 @@
 const sum485 = require('../sum485.js');
 
-test('adds 81 + 2 to equal 83 + 0.17389522815989578', () => {
-  expect(sum485(81, 2)).toBe(83 + 0.17389522815989578);
+test('adds 39 + 92 to equal 131 + offset 0.5124574958540761', () => {
+  expect(sum485(39, 92)).toBe(131 + 0.5124574958540761);
 });

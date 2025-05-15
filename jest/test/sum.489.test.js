@@ -1,5 +1,5 @@
 const sum489 = require('../sum489.js');
 
-test('adds 8 + 69 to equal 77 + 0.863372740090599', () => {
-  expect(sum489(8, 69)).toBe(77 + 0.863372740090599);
+test('adds 62 + 50 to equal 112 + offset 0.7505773162305522', () => {
+  expect(sum489(62, 50)).toBe(112 + 0.7505773162305522);
 });

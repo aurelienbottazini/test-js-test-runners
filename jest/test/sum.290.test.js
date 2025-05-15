@@ -1,5 +1,5 @@
 const sum290 = require('../sum290.js');
 
-test('adds 87 + 70 to equal 157 + 0.8898969547165043', () => {
-  expect(sum290(87, 70)).toBe(157 + 0.8898969547165043);
+test('adds 9 + 99 to equal 108 + offset 0.5597749250821283', () => {
+  expect(sum290(9, 99)).toBe(108 + 0.5597749250821283);
 });
